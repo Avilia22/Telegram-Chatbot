@@ -1,0 +1,61 @@
+action_factory: null
+action_names:
+- Action_slot_reset
+- Action_check_event_existance
+- Action_check_event_enrollment
+- Action_check_user_logged
+- Action_show_steering_committe_mail
+- Action_show_steering_committer_office
+- Action_show_eventt_free_spots
+- Action_show_event_schedule
+- Action_show_ssteering_committe_mails
+- Action_show_steering_committe_offices
+- Action_show_steering_committe_names
+- Action_show_next_event
+- Action_show_steering_committe_info
+- Action_greet
+- Action_no_problem
+actions:
+- actions.Action_slot_reset
+- actions.Action_check_event_existance
+- actions.Action_check_event_enrollment
+- actions.Action_check_user_logged
+- actions.Action_show_steering_committe_mail
+- actions.Action_show_steering_committe_office
+- actions.Action_show_event_free_spots
+- actions.Action_show_event_schedule
+- actions.Action_show_steering_committe_mails
+- actions.Action_show_ssteering_committe_offices
+- actions.Action_show_steering_committe_names
+- actions.Action_show_next_event
+- actions.Action_show_next_exams
+- actions.Action_show_steering_committe_info
+- actions.Action_greet
+- actions.Action_no_problem
+config:
+  store_entities_as_slots: true
+entities:
+- steering_committe_name
+- event
+intents:
+- ask_steering_committe_mail
+- ask_steering_committe_office
+- ask_free_spots
+- ask_event_schedule
+- ask_steering_committe_name
+- ask_next_event
+- inform
+- greet
+- thank
+slots:
+  event_existance:
+    initial_value: null
+    type: rasa_core.slots.BooleanSlot
+  steering_committe_name:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  user_logged:
+    initial_value: null
+    type: rasa_core.slots.BooleanSlot
+templates: {}
+topics: []

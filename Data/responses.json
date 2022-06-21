@@ -1,0 +1,64 @@
+{
+  "ask_steering_committe_mail": {
+
+    "Ina": [
+     "email {} adalah {}",
+     "emailny adalah {}"
+    ],
+    "en": [
+      "{}'s mail is {}.",
+      "{} has this mail: {}.",
+      "There you go, {}.",
+      "It is {}."
+    ]
+  },
+
+  "ask_free_spots": {
+    "Ina": [
+      "Ada free spot di acara{}"
+    ],
+    "en": [
+      "there are {} out of {} free spots in {}."
+    ]
+  },
+  "ask_event_event": {
+    "es": [
+      "Terdapat acara {} pekan ini"
+    ],
+    "en": [
+      "you have a {} ."
+    ]
+  },
+  "steering_committe_info": {
+    "Ina": [
+      "Saudara {0} adalah panitia dari departemen {1}."
+    ],
+    "en": [
+      "{0} is a committe from {1}'s department."
+    ]
+  },
+  "greet_back": {
+    "Ina": [
+      "Hai",
+      "Hallo",
+      "Hallo, ada yang bisa saya bantu?",
+      "Hai, ada yang saya bisa bantu untuk anda?"
+    ],
+    "en": [
+      "Hi!",
+      "Hey, how can I help you?",
+      "Hello!",
+      "Hey!",
+      "Hey! What can I do for you?"
+    ]
+  },
+  "thank": {
+    "Ina": [
+      "Sama-sama"
+    ],
+    "en": [
+      "No problem!",
+      "You're welcome"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+intents:
+  - ask_steering_committe_mail
+  - ask_steering_committe_office
+  - ask_free_spots
+  - ask_event_schedule
+  - ask_steering_committe_teacher_name
+  - ask_event
+  - inform
+  - greet
+  - thank
+
+entities:
+  - steering_committer_name
+
+
+slots:
+  steering_committer_name:
+    type: text
+  eventt_enrollment:
+    type: bool
+  user_logged:
+    type: bool
+
+actions:
+  - actions.Action_slot_reset
+  - actions.Action_check_event
+  - actions.Action_check_user_logged
+  - actions.Action_show_steering_committe_mail
+  - actions.Action_show_steering_committer_office
+  - actions.Action_show_event_free_spots
+  - actions.Action_show_event_schedule
+  - actions.Action_show_subject_steering_committe_names
+  - actions.Action_show_next_event
+  - actions.Action_show_steering_committe_info
+  - actions.Action_greet
+  - actions.Action_no_problem

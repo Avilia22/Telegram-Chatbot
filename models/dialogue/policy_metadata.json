@@ -1,0 +1,48 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "steering_committe_name"
+      ]
+    },
+    "Action_check_user_logged": {
+      "slots": [
+        "user_logged"
+      ]
+    },
+    "Action_check_event_existance": {
+      "slots": [
+        "event_existance",
+        "event_exists"
+      ]
+    },
+    "Action_check_event_enrollment": {
+      "slots": [
+        "event_enrollment"
+      ]
+    },
+    "Action_show_steering_committe_mails": {
+      "slots": [
+        "matches"
+      ]
+    },
+    "Action_slot_reset": {
+      "slots": []
+    },
+    "Action_showsteering_committe_offices": {
+      "slots": [
+        "matches"
+      ]
+    }
+  },
+  "rasa_core": "0.9.3",
+  "max_histories": [
+    5,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}

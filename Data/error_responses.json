@@ -1,0 +1,73 @@
+{
+        "not_understand": {
+            "Ina": [
+                "Saya tidak paham apa yang anda katakan",
+                "Saya tidak paham apa yang anda tanyakan",
+                "Maaf, saya tidak paham"
+            ],
+            "en": [
+                "I did not understand what you just asked",
+                "I did not get what you asked",
+                "I'm sorry, I did not understand you"
+            ]
+        },
+        "wrong_steering_committe": {
+            "Ina": [
+                "Panitia dengan nama ini tida ada dalam daftar",
+                "Saya tidak mengetahui siapa yang anda tanyakan",
+                "Maaf saya tidak dapat meneukan nama yang mirip dengan panitia yang anda tanyakan"
+            ],
+            "en": [
+                "This name does not exist",
+                "I dont know who are you asking about",
+                "I'm sorry, I cannot find any similar name to who you asked about"
+            ]
+        },
+        "wrong_event": {
+            "Ina": [
+               "Saya tidak paham apa yang anda tanyakan?",
+               "Saya tidak dapat menukan acara yang anda cari",
+               "Maaf, saya tidak dapat memahami apayan anda tanyakan",
+               "Saya rasa acara tersebut tidak ada"
+            ],
+            "en": [
+                "I could not understand the event you asked about",
+                "I don't know what event are you asking about",
+                "I'm sorry, I did not understand the event you asked about",
+                "I think that this event does not exist"
+            ]
+        },
+        "not_enrolled": {
+            "es": [
+               "Anda tidak mendaftar acara ini"
+            ],
+            "en": [
+                "You did not enroll this event",
+                "You did not enroll {}"
+            ]
+        },
+        "not_event": {
+            "Ina": [
+                "Anda tida mempunyai acara pekan ini"            ],
+            "en": [
+                "You have no event coming soon",
+                "You don't have event coming soon"
+            ]
+        },
+        "not_logged": {
+            "Ina": [
+                "Anda belum melakukan login dengan akun anda. Saya tidak dapat melihat informasi tentang anda"
+            ],
+            "en": [
+                "You have not logged in with your account. I cannot see your information"
+            ]
+        },
+        "not_enrollment_possible":{
+          "Ina": [
+              "Anda tidak dapat mendaftar event {}"
+          ],
+          "en": [
+              "{} is not available for enrollments."
+          ]
+        }
+    }
