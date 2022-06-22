@@ -19,7 +19,7 @@ from rasa_core.channels.console import ConsoleInputChannel
 from telegram import ChatAction
 
 #-- local imports --#
-from Fibot.NLP.nlu import NLU_unit
+from bot.NLP.nlu import NLU_unit
 
 
 class Query_answer_unit(object):

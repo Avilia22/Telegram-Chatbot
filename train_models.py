@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 
 #-- Local imports --#
 from bot.bot import bot
@@ -40,8 +38,8 @@ def main():
     config.gpu_options.allow_growth = True
     tf.Session(config=config)
 
-    fibot = Fibot()
-    fibot.qa.load(trainNLG=trainNLG, trainNLU = trainNLU, train_list = languages)
+    bot = bot()
+    bot.qa.load(trainNLG=trainNLG, trainNLU = trainNLU, train_list = languages)
     return
 
 if __name__ == "__main__":

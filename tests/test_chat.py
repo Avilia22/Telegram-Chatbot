@@ -1,6 +1,6 @@
 
 
-from Fibot.NLP.nlg import Query_answer_unit
+from bot.NLP.nlg import Query_answer_unit
 
 def main():
     qa = Query_answer_unit()
